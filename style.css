@@ -14,14 +14,13 @@
 }
 #navlist {
     display: flex;
-    justify-content: center;  /* centers the items horizontally */
-    align-items: center;      /* aligns them vertically */
-    gap: 2rem;                /* space between items */
-    list-style: none;         /* removes bullets */
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
     padding: 0;
     margin: 0;
 }
-
 
 li {
     list-style: none;
@@ -135,21 +134,20 @@ button{
     visibility: hidden;
 }
 
-/* --- Responsive Fixes --- */
 @media (max-width: 768px) {
     .box {
-        height: auto; /* let nav/footer resize naturally */
+        height: auto;
         padding: 10px 0;
     }
 
     #navlist {
-        flex-direction: column; /* stack nav items */
+        flex-direction: column;
         align-items: center;
-        gap: 10px; /* space between items */
+        gap: 10px;
     }
 
     #name {
-        font-size: 40px; /* shrink heading */
+        font-size: 40px;
     }
 
     #instructions {
