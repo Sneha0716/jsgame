@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="box">
+        <ul id="navlist">
+            <li>Home</li>
+            <li>Projects</li>
+            <li>Achievements</li>
+            <li>Contact Me</li>
+        </ul>
+    </nav>
+    <main id="container">
+        <div id="banner"><span>Number  Guessing  Game</span></div>
+        <div id="innerbox">
+            <div class="inner" id="instructions"><span>Try and guess a random number between 1 and 10!</span></div>
+            <div class="inner"><span id="bgwhite">You have <span id="remainingGuesses">3</span> attempts to guess the right number</span></div>
+            <div id="name">Guess a Number</div>
+            <div class="btn">
+                <input type="text" id="textbox">
+                <button type="submit" id="submit">Submit</button>
+            </div>
+            <div id="content" class="content">
+                <div id="first">Previous Guesses: [<span id="prevGuesses"></span>]</div>
+                <div id="ending"></div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer" class="box">
+            <div><p>&copy; 2025 Guess the Number. All rights reserved.</p></div>
+            <div>Made with lust by Vivek</div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
